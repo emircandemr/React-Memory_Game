@@ -10,7 +10,7 @@ const Card = ({card,onCardClick}) => {
 
   return (
     <div className='board__container' onClick={onClick} >
-    <div className="board__card" >
+    <div className={`board__card  ${card.isShown ? 'flipped' : ' '} `}  >
             <div className="board__card-front" ></div>
             <div className="board__card-back" >
                 <Image url={card.url}/>
