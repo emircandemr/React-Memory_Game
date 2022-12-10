@@ -7,12 +7,11 @@ const useGetImages = (gameOptions) => {
     
     const buildURL = () => {
         let url = new URL ("https://api.pexels.com/v1/search")
-        console.log({gameOptions})
         url.search = new URLSearchParams({
           query: gameOptions.category,
           orientation : "square",
           size : "small",
-          per_page : gameOptions.cardsCount / 2,
+          per_page : gameOptions.cardCount / 2,
           page : getRandomPage()
         })
     

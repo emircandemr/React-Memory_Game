@@ -13,9 +13,6 @@ const RadioBox = ({name,selectedItem,onChange}) => {
             <div className="rad-design"></div>
             <div className="rad-text">{name}</div>
         </label>
-        {/* <input className='radioBox' type="radio" id={name} name={name} value={name}
-        checked={isChecked} onChange={onChange} />
-        <label htmlFor={name} >{name}</label> */}
     </div>
   )
 }

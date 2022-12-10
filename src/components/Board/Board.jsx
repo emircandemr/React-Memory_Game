@@ -4,12 +4,13 @@ import useGetImages from  "../../hooks/useGetImages.jsx"
 import { useEffect } from 'react'
 import Loading from '../Loader/Loading'
 import useGameLogic from "../../hooks/useGameLogic.jsx"
+import Card from '../Card/Card'
 
 const Board = ({gameOptions}) => {
 
     const images = useGetImages(gameOptions)
-    const cards = useGameLogic(images)
-
+    const {cards , onCardClick} = useGameLogic(images)
+    
     const [isLoading , setLoading] = useState(true)
 
     useEffect( () => {
@@ -18,8 +19,13 @@ const Board = ({gameOptions}) => {
 
 
   return (
-    <div>
-        {isLoading ? <Loading/> : <h1>Game is on</h1>}
+    <div className='board'>
+      {isLoading && <Loading/>}
+      {!isLoading &&  
+          cards.map( (card) => (
+            <Card key={card.uniqueId} card={card} onCardClick={onCardClick} />
+          ))
+      }
     </div>
   )
 }

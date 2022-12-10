@@ -1,0 +1,10 @@
+.board{
+    width: 70%;
+    margin: 0 auto;
+    // background-color:red ;
+    padding: 1rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1rem;
+}

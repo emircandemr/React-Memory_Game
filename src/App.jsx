@@ -9,7 +9,6 @@ function App() {
   const [gameOptions, setGameOptions] = useState(null)
 
   const startGame = (options) => {
-  
     setGameOptions(options)
   }
 
