@@ -1,5 +1,4 @@
 .settings{
-
     width: 700px;
     height: 550px;
     margin-top: 30px;
@@ -38,33 +37,37 @@
         border-radius: 20px;
         padding: 15px;
       }
-
-      
-      
     }
-    
-    &__button{
-      margin : 15px auto 0px auto;
 
-        &-btn{
-            border: 2px solid #212121;
-            padding: 15px 30px;
-            border-radius: 20px;
-            background-color: #121212;
-            color: #fff;
-            font-weight: 600;
-            font-size: 14px;
-            cursor: pointer;
-            transition: .3s;
-            
-            &:hover{
-                background-color: #212121;
-            }
+      &__button{
+        width: 100px;
+        height: 50px;
+        background-color: #121212;
+        border: 2px solid #212121;
+        margin: 1rem auto;
+        border-radius: 10px;
+        
+        &--btn{
+          width: 100%;
+          height: 100%;
+          border: none;
+          font-size: 1rem;
+          font-weight: 900;
+          background: linear-gradient(to right bottom, hsl(154, 97%, 62%), hsl(225, 97%, 62%));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        
+        &:hover{
+          background: linear-gradient(to right bottom, hsl(21, 54%, 64%), hsl(114, 38%, 47%));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          cursor: pointer;
+
         }
 
-    }
-    
-
+        
+      
+      }}
 
 
 }

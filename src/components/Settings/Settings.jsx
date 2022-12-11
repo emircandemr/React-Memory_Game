@@ -7,7 +7,7 @@ import { INITIAL_CARDS_COUNT } from "../../constant.js";
 
 
 
-const Settings = ({startGame}) => {
+const Settings = ({startGame,setStart}) => {
 
   const [category, setCategory] = useState(CATEGORIES[1])
   const [pace, setPace] = useState(DIFFICULTY[2])
@@ -16,6 +16,7 @@ const Settings = ({startGame}) => {
 
   const onClickStartGame = () => {
     startGame({category, pace, cardCount})
+    setStart(true)
   }
 
   return (
@@ -37,7 +38,7 @@ const Settings = ({startGame}) => {
           ))}         
         </div>
         <div className='settings__button'>
-          <button className='settings__button-btn' onClick={onClickStartGame} >Start</button>
+          <button className='settings__button--btn' onClick={onClickStartGame} >Start</button>
         </div>
 
     </div>

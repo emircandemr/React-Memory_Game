@@ -6,10 +6,10 @@ import Loading from '../Loader/Loading'
 import useGameLogic from "../../hooks/useGameLogic.jsx"
 import Card from '../Card/Card'
 
-const Board = ({gameOptions}) => {
+const Board = ({gameOptions,setScore , setFinish , setStart}) => {
 
     const images = useGetImages(gameOptions)
-    const {cards , onCardClick} = useGameLogic(images)
+    const {cards , onCardClick} = useGameLogic(images, gameOptions,setScore ,setFinish , setStart)
     
     const [isLoading , setLoading] = useState(true)
 
