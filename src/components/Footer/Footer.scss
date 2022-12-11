@@ -1,0 +1,17 @@
+.footer{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+    &--title{
+        font-size: 0.8rem;
+        font-weight: 600;
+        background: linear-gradient(to right bottom, hsl(154, 97%, 62%), hsl(225, 97%, 62%));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-right: 1rem;
+    }
+
+}

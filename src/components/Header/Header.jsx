@@ -5,7 +5,7 @@ import useGameLogic from '../../hooks/useGameLogic'
 import './Header.scss'
 
 
-const Header = ({start,score}) => {
+const Header = ({start,score,finish}) => {
     
     const [minute, setMinute] = useState(0)
     const [seconds, setSeconds] = useState(0)
@@ -27,7 +27,11 @@ const Header = ({start,score}) => {
 
     useEffect(() => {
         if(start) stopwatch()
-        
+        if(finish) {
+            setMinute(0)
+            setSeconds(0)
+            setMilliseconds(0)
+        }
     })
 
   return (

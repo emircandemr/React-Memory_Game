@@ -4,6 +4,7 @@ import RadioBox from '../RadioBox/RadioBox';
 import { CATEGORIES } from "../../constant.js";
 import { DIFFICULTY } from "../../constant.js";
 import { INITIAL_CARDS_COUNT } from "../../constant.js";
+import Footer from '../Footer/Footer';
 
 
 
@@ -20,6 +21,7 @@ const Settings = ({startGame,setStart}) => {
   }
 
   return (
+    <>
     <div className='settings' >
         <h2 className='settings__title' >Settings</h2>
         <div className='settings__category__options'>
@@ -40,8 +42,9 @@ const Settings = ({startGame,setStart}) => {
         <div className='settings__button'>
           <button className='settings__button--btn' onClick={onClickStartGame} >Start</button>
         </div>
-
     </div>
+     <Footer/>
+    </>
   )
 }
 

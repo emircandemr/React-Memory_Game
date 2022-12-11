@@ -1,11 +1,12 @@
 .board__card{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    margin: 0 auto;
     transform-style: preserve-3d;
     transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
