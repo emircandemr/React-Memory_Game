@@ -18,7 +18,7 @@
 
 <div align="center">
 <h2> 🖋️ About</h2>
-<p>this project is built using react and scss. The project is a memory game. When the application is first opened, you can choose the category of the pictures you want to see on the cards. The closing times of the cards vary according to the difficulty of the game. You can also choose the number of cards you want to play from the game settings.</p>
+<p>This project is built using react and scss. The project is a memory game. When the application is first opened, you can choose the category of the pictures you want to see on the cards. The closing times of the cards vary according to the difficulty of the game. You can also choose the number of cards you want to play from the game settings.</p>
 </div>
 
 <div align="center">
@@ -64,7 +64,7 @@
 
 ## Getting Started
 
-To get started you can simply clone this `Vue-Nuxt3-Kanban-Project.git` repository and install the dependencies.
+To get started you can simply clone this `React-Memory_Game.git` repository and install the dependencies.
 Clone the `React-Memory_Game.git` repository using git:
 
 ```bash
