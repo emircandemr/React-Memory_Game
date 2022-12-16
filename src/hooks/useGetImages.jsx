@@ -14,13 +14,10 @@ const useGetImages = (gameOptions) => {
           per_page : gameOptions.cardCount / 2,
           page : getRandomPage()
         })
-    
         return url
-    
       }
     
       const fetchPics = async () => {
-    
           await fetch(buildURL(), {
             headers : {
               Authorization : "563492ad6f91700001000001dbe5a78ed93f4bc28a6d421f406e16a9"
@@ -28,16 +25,13 @@ const useGetImages = (gameOptions) => {
           })
           .then(data => data.json())
           .then(data => setImages(data.photos))
-    
       }
     
       useEffect(() => {
         if(!gameOptions) return
         fetchPics()
       },[gameOptions])
-
       return images
-
 }
 
 export default useGetImages

@@ -1,6 +1,5 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import './App.css'
-import Background from './components/Background/Background'
 import Board from './components/Board/Board'
 import Finish from './components/Finish/Finish'
 import Header from './components/Header/Header'
