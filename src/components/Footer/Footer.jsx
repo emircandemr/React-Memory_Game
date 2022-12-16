@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className="footer">
                 <div className="footer--title">
-                    Emircan DEMIR -emircanndemr@gmail.com
+                    Emircan DEMIR - emircanndemr@gmail.com
                 </div>
                 <div className="footer--link">
                     <a href="https://github.com/emircandemr/React-Memory_Game" target="_blank">

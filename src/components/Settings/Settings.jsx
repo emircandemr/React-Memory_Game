@@ -10,9 +10,9 @@ import Footer from '../Footer/Footer';
 
 const Settings = ({startGame,setStart}) => {
 
-  const [category, setCategory] = useState(CATEGORIES[1])
+  const [category, setCategory] = useState(CATEGORIES[0])
   const [pace, setPace] = useState(DIFFICULTY[2])
-  const [cardCount, setcardCount] = useState(INITIAL_CARDS_COUNT[0])
+  const [cardCount, setcardCount] = useState(INITIAL_CARDS_COUNT[2])
 
 
   const onClickStartGame = () => {

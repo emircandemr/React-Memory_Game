@@ -60,3 +60,30 @@
     color: hsl(0, 0%, 40%);
   }
   
+  @media screen and (max-width: 768px) {
+    .rad-label {
+      padding: 8px 10px;
+    }
+    
+    .rad-design {
+      width: 16px;
+      height: 16px;
+    }
+    
+    .rad-text {
+      font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width: 598px){
+    
+
+    .rad-design {
+      width: 16px;
+      height: 17px;
+    }
+    
+    .rad-text {
+      font-size: 8px;
+    }
+  }

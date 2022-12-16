@@ -56,3 +56,25 @@
 .found {
     transform: rotateY(180deg);
 }
+
+
+@media screen and (max-width: 768px) {
+    .board__card{
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 598px) {
+    .board__card{
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .board__card{
+        width: 70px;
+        height: 70px;
+    }
+}

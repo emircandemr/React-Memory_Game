@@ -27,7 +27,6 @@ function App() {
   return (
     <div className="App">
       <Header start={start} score={score} finish={finish} />
-      <Background/>
       {!gameOptions ? <Settings startGame={startGame} setStart={setStart} /> : <Board gameOptions={gameOptions} setStart={setStart} setScore={setScore} setFinish={setFinish}/>}
       {finish && <Finish setGameOptions={setGameOptions} playAgain={playAgain} /> }
     </div>
