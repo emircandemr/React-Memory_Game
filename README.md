@@ -4,6 +4,7 @@
 <h3> 🛠️ Built With</h3>
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></img>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></img>
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E"></img>
 <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"></img>
 <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"></img>
 </div>
@@ -11,7 +12,7 @@
 <div align="center">
 <h3>✨ Live Version </h3>
 
-### [You can see the live version here.](https://vue-nuxt3-kanban-project.vercel.app)
+### [You can see the live version here.](https://react-memory-game-six-sigma.vercel.app)
 </div>
 
 
