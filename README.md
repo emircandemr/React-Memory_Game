@@ -64,7 +64,7 @@
 
 ## Getting Started
 
-To get started you can simply clone this `Vue-Nuxt3-Kanban-Project.git` repository and install the dependencies.
+To get started you can simply clone this `React-Memory_Game.git` repository and install the dependencies.
 Clone the `React-Memory_Game.git` repository using git:
 
 ```bash
